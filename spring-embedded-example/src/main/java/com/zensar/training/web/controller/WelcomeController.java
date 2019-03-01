@@ -24,9 +24,8 @@ public class WelcomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome(Model model) {
 
-		logger.debug("mkyong");
+		
 
-		//User user = userDao.findByName("mkyong");
 		
 		List<User> users = userDao.findAll();
 
