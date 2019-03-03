@@ -7,7 +7,7 @@
 	<artifactId>SpringMVCSecurity</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>SpringMVCHibernateWithSpringSecurity</name>
+	<name>SpringMVCHibernateWithSpringSecurityExample</name>
 
   	<properties>
 		<springframework.version>4.2.5.RELEASE</springframework.version>
@@ -138,6 +138,6 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>SpringMVCHibernateSecurity</finalName>
+		<finalName>SpringMVCHibernateWithSpringSecurityExample</finalName>
 	</build>
 </project>
